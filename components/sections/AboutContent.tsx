@@ -50,7 +50,7 @@ export default function AboutContent() {
           About Eddea
         </h1>
         <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
-          A Lagos-based full-stack development studio creating modern, secure, and performant web applications.
+          A Lagos-based full-stack development studio creating modern, secure, and performant web and mobile applications.
         </p>
       </motion.div>
 
@@ -77,7 +77,7 @@ export default function AboutContent() {
           className="space-y-5 sm:space-y-6 order-1 md:order-2"
         >
           <h2 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
-            Founded by King Edward
+            Founded by King Edward Esedo
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground">
             Full-stack developer from Lagos with deep expertise in building fast, scalable, and maintainable web applications. Passionate about clean code, great user experiences, and delivering real business value.

@@ -108,7 +108,7 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-[#deb56a]" />
                 <a href="mailto:hello@eddea.dev" className="hover:text-[#deb56a] transition-colors">
-                  hello@eddea.org
+                  info@eddea.org
                 </a>
               </li>
               <li className="flex items-center gap-3">
