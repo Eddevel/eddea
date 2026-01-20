@@ -10,7 +10,7 @@ import { Toaster } from "@/components/ui/sonner"
 
 export const metadata: Metadata = {
   title: "Eddea — Modern Full-Stack Web Applications",
-  description: "Lagos-based git add .",
+  description: "Lagos-based software studio building fast, secure, scalable web and mobilegit solutions.",
   keywords: "web development, full-stack, Next.js, Lagos, Nigeria",
   openGraph: {
     title: "Eddea",
