@@ -1,4 +1,3 @@
-// components/sections/HomeContent.tsx
 "use client"
 
 import { Button } from "@/components/ui/button"
@@ -19,7 +18,7 @@ const techStack = [
   "Express.js",
   "React Native",
   "Firebase",
-  "Dart",
+  "Flutter",
   "Python",
   "Javascript",
   "Sass",
@@ -143,16 +142,32 @@ export default function HomeContent() {
           We build fast, scalable, user-friendly web & mobile applications for startups, businesses, and brands. From clean UIs to robust backends — delivered on time.
         </motion.p>
 
-        <motion.div variants={heroItem} whileHover="hover" whileTap="tap">
-          <Button
-            asChild
-            size="lg"
-            className="text-base sm:text-lg px-8 sm:px-10 py-6 sm:py-7 bg-gradient-to-r from-[#deb56a] to-[#cc0000] hover:from-[#cc0000] hover:to-[#deb56a] text-white shadow-lg hover:shadow-2xl transition-all duration-300 will-change-transform"
-          >
-            <Link href="/contact">Start Your Project</Link>
-          </Button>
-        </motion.div>
+        <motion.div
+  initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.8, delay: 0.6 }}
+  className="mt-12 sm:mt-16 text-center"
+>
+  <div className="inline-block p-1 rounded-full bg-gradient-to-r from-[#deb56a]/30 to-[#cc0000]/30">
+    <div className="bg-background rounded-full px-6 py-3 shadow-lg">
+      <p className="text-lg sm:text-xl font-semibold text-[#deb56a]">
+        Get Your Free Website / Security Audit
+      </p>
+    </div>
+  </div>
+  <Button
+    asChild
+    size="lg"
+    className="mt-6 text-base sm:text-lg px-10 bg-gradient-to-r from-[#deb56a] to-[#cc0000] hover:from-[#cc0000] hover:to-[#deb56a] text-white shadow-2xl hover:shadow-3xl transition-all duration-300"
+  >
+    <Link href="/contact">Book Now – Free 30-Min Call</Link>
+  </Button>
+</motion.div>
       </motion.section>
+
+      {/* Big Free Audit CTA */}
+
 
       {/* Tech stack */}
       <section className="mb-16 sm:mb-24">
@@ -191,12 +206,6 @@ export default function HomeContent() {
             href="/work"
           />
           <ProjectCard
-            title="Cookeyfranklinsgroup.com"
-            description="Group of companies that focus on issues that demand urgent solutions to teething business challenges."
-            image="/assets/cookeyfg-screenshot.png"
-            href="/work"
-          />
-          <ProjectCard
             title="Coming Soon"
             description="Custom web app for local Nigerian startup — more details soon."
             image="/assets/eddea-logo.png"
@@ -205,7 +214,8 @@ export default function HomeContent() {
           />
         </div>
       </section>
-
+      <TestimonialsContent />
+     
       {/* Trust signals */}
       <section className="text-center py-12 sm:py-16 bg-gradient-to-b from-muted/20 to-background rounded-xl sm:rounded-2xl border border-[#deb56a]/20">
         <div className="max-w-3xl mx-auto space-y-4 sm:space-y-6">
@@ -221,7 +231,6 @@ export default function HomeContent() {
           </div>
         </div>
       </section>
-      <TestimonialsContent />
     </div>
   )
 }

@@ -1,11 +1,8 @@
-// components/sections/TestimonialsContent.tsx
 "use client"
-
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Star } from "lucide-react"
 import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
 
 const testimonials = [
   {
@@ -18,27 +15,27 @@ const testimonials = [
     name: "NaturalG Client",
     company: "NaturalG",
     quote: "Professional, responsive, and clean code. naturalg.org looks sharp and loads fast. Very satisfied with the result.",
-    avatar: "/assets/placeholder-avatar-2.jpg",
+    avatar: "/assets/placeholder-avatar-2.png",
   },
   {
     name: "Tunde A.",
     company: "Startup Founder",
     quote: "Fast turnaround, clear communication, and high-quality code. Exactly what we needed for our MVP dashboard.",
-    avatar: "/assets/placeholder-avatar-3.jpg",
+    avatar: "",
   },
   // ← add real testimonials here when available
 ]
 
 export default function TestimonialsContent() {
   return (
-    <div className="container mx-auto px-4 sm:px-6 py-10">
+    <div className="container mx-auto ">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
         className="text-center mb-12 sm:mb-10"
       >
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
+        <h1 className="text-4xl  font-bold mb-4 sm:mb-6 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
           Client Testimonials
         </h1>
         <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">

@@ -1,4 +1,3 @@
-// components/layout/Navbar.tsx
 "use client"
 
 import { useState, useEffect } from "react"
@@ -12,8 +11,9 @@ import Image from "next/image"
 // Navigation items
 const navItems = [
   { href: "/", label: "Home" },
-  { href: "/work", label: "Work" },
   { href: "/services", label: "Services" },
+  { href: "/pricing", label: "Pricing" },
+  { href: "/work", label: "Work" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ]
