@@ -1,5 +1,3 @@
-// app/testimonials/page.tsx
-// Server Component – no "use client"
 
 import TestimonialsContent from "@/components/sections/TestimonialsContent"
 

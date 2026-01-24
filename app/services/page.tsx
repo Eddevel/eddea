@@ -1,5 +1,3 @@
-// app/services/page.tsx
-// Server Component (metadata) + Client Content
 
 import ServicesContent from "@/components/sections/ServicesContent"
 

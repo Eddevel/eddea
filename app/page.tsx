@@ -1,9 +1,9 @@
 import HomeContent from "@/components/sections/HomeContent"
 
 export const metadata = {
-  title: "Eddea — Modern Full-Stack Applications",
-  description: "Lagos-based software studio building fast, secure, scalable web solutions.",
-  keywords: "web development, full-stack,Mobile development, Next.js, Lagos, Nigeria",
+  title: "Eddea — Modern Software Development Company",
+  description: "Lagos-based software studio building fast, secure, scalable web and mobile solutions.",
+  keywords: "web development, full-stack,Mobile development, Next.js, Lagos, Nigeria, Lekki, React.js, Mobile Development",
   openGraph: {
     title: "Eddea",
     description: "One studio. Zero compromises.",

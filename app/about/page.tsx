@@ -1,6 +1,3 @@
-// app/about/page.tsx
-// Server Component – no "use client"
-
 import AboutContent from "@/components/sections/AboutContent"
 
 export const metadata = {
