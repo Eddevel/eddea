@@ -105,13 +105,13 @@ export default function PricingContent() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true }}
-        className="grid gap-6 sm:gap-8 md:grid-cols-2 lg:grid-cols-3"
+        className="grid gap-6 sm:gap-8 md:grid-cols-2 lg:grid-cols-3 "
       >
         {pricingPlans.map((plan, index) => (
           <motion.div
             key={plan.name}
             variants={item}
-            className={`relative rounded-2xl overflow-hidden border-2 ${
+            className={`relative rounded-2xl overflow-hidden border-2 py-10 ${
               plan.recommended
                 ? "border-[#cc0000] shadow-2xl shadow-[#cc0000]/20"
                 : "border-[#deb56a]/30"
