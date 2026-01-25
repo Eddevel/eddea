@@ -60,7 +60,7 @@ export default function Web3Content() {
 
       {/* Process */}
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8, delay: 0.2 }} className="mb-16">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-10 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
+        <h2 className="text-3xl py-2 sm:text-4xl font-bold text-center mb-10 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
           Our Web3 Development Process
         </h2>
         <div className="grid md:grid-cols-5 gap-6 text-center">
@@ -84,7 +84,7 @@ export default function Web3Content() {
 
       {/* CTA */}
       <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="text-center">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-6 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
+        <h2 className="text-3xl py-2 sm:text-4xl font-bold mb-6 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
           Ready to Launch Your Web3 Vision?
         </h2>
         <Button asChild size="lg" className="bg-gradient-to-r from-[#deb56a] to-[#cc0000] hover:from-[#cc0000] hover:to-[#deb56a] text-white shadow-2xl hover:shadow-3xl">
