@@ -35,8 +35,8 @@ export default function Navbar() {
   // SSR placeholder to prevent layout shift
   if (!mounted) {
     return (
-      <header className="fixed top-0 left-0 right-0 z-50 border-b bg-background/80 backdrop-blur-md">
-        <div className="container mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+      <header className="fixed top-0 left-0 right-0 z-50 border-b border-[#deb56a] bg-background/0 backdrop-blur-md">
+        <div className="container mx-auto px-4 sm:px-6  py-1 flex items-center justify-between">
           <div className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
             <Image src="/assets/4.svg" loading="eager" alt="" width={100} height={50} className="" />
           </div>

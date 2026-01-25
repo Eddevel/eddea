@@ -1,5 +1,5 @@
 
-import ServicesContent from "@/components/sections/ServicesContent"
+import ServicesHubContent from "@/components/sections/ServicesHubContent"
 
 export const metadata = {
   title: "Services | Eddea – Modern Web3, Mobile & Web Development",
@@ -7,5 +7,5 @@ export const metadata = {
 }
 
 export default function ServicesPage() {
-  return <ServicesContent />
+  return <ServicesHubContent />
 }

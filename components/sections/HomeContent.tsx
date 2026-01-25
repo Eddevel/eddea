@@ -96,17 +96,17 @@ export default function HomeContent() {
   }, [])
 
   return (
-    <div className="container mx-auto px-4 sm:px-6  pt-10">
+    <div className="container mx-auto px-4  sm:px-6  pt-10">
       {/* Hero Section - Animated & Sequenced */}
       <motion.section
         variants={heroContainer}
         initial="hidden"
         animate="show"
-        className="relative text-center max-w-4xl mx-auto mb-16 sm:mb-24 overflow-hidden"
+        className="relative  text-center"
       >
         {/* Very subtle animated gradient background */}
         <motion.div
-          className="absolute inset-0 -z-10 opacity-30 pointer-events-none"
+          className="absolute  inset-0 -z-10 opacity-30 pointer-events-none"
           animate={{
             background: [
               "radial-gradient(circle at 20% 20%, #deb56a10, transparent 40%)",
@@ -131,15 +131,15 @@ export default function HomeContent() {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-[length:200%_auto] bg-clip-text text-transparent will-change-transform py-12 "
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-[length:200%_auto] bg-clip-text text-transparent will-change-transform py-10 "
             >
               {heroPhrases[currentPhraseIndex]}
             </motion.h1>
           </AnimatePresence>
         </div>
 
-        <motion.p variants={heroItem} className="text-lg sm:text-xl text-muted-foreground mb-8 sm:mb-10 max-w-3xl mx-auto leading-relaxed">
-          We build fast, scalable, user-friendly web & mobile applications for startups, businesses, and brands. From clean UIs to robust backends — delivered on time.
+        <motion.p variants={heroItem} className="text-lg sm:text-xl text-primary mb-5 sm:mb-10 max-w-3xl mx-auto leading-relaxed">
+          We build fast, scalable, user-friendly web & mobile applications for startups, businesses, and brands. From clean UIs to robust backends delivered on time.
         </motion.p>
 
         <motion.div
@@ -147,7 +147,7 @@ export default function HomeContent() {
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: true }}
   transition={{ duration: 0.8, delay: 0.6 }}
-  className="mt-12 sm:mt-16 text-center"
+  className=" text-center"
 >
   <div className="inline-block p-1 rounded-full bg-gradient-to-r from-[#deb56a]/30 to-[#cc0000]/30">
     <div className="bg-background rounded-full px-6 py-3 shadow-lg">
@@ -159,7 +159,7 @@ export default function HomeContent() {
   <Button
     asChild
     size="lg"
-    className="mt-6 text-base sm:text-lg px-10 bg-gradient-to-r from-[#deb56a] to-[#cc0000] hover:from-[#cc0000] hover:to-[#deb56a] text-white shadow-2xl hover:shadow-3xl transition-all duration-300"
+    className=" mt-5 text-base sm:text-lg px-10 bg-gradient-to-r from-[#deb56a] to-[#cc0000] hover:from-[#cc0000] hover:to-[#deb56a] text-white shadow-2xl hover:shadow-3xl transition-all duration-300"
   >
     <Link href="/contact">Book Now – Free 30-Min Call</Link>
   </Button>
@@ -170,8 +170,8 @@ export default function HomeContent() {
 
 
       {/* Tech stack */}
-      <section className="mb-16 sm:mb-24">
-        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6 sm:mb-10 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
+      <section className="mb-10 mt-10 sm:mb-24">
+        <h2 className="text-2xl py-2 sm:text-3xl font-bold text-center mb-6 sm:mb-10 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
           Our Tech Stack
         </h2>
         <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
@@ -189,26 +189,26 @@ export default function HomeContent() {
 
       {/* Featured projects teaser */}
       <section className="mb-16 sm:mb-24">
-        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
+        <h2 className="text-2xl py-2 sm:text-3xl font-bold text-center mb-8 sm:mb-12 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
           Featured Work
         </h2>
         <div className="grid gap-6 sm:gap-8 md:grid-cols-2 lg:grid-cols-3">
           <ProjectCard
             title="NaturalG.org"
-            description="Corporate/educational website for natural gas information and resources. Clean layout, informative sections, responsive design."
+            description="Corporate/e-commerce website for Ago Diesel information and resources. Clean layout, informative sections, responsive design."
             image="/assets/naturalg-screenshot.png"
-            href="/work"
+            href="/work/naturalg"
           />
           <ProjectCard
             title="Metrofolk.ng"
-            description="Solar energy solutions provider site with product showcase, packages, testimonials, and contact forms. Modern e-commerce-like feel with reliable performance."
+            description="Solar energy solutions provider site with product showcase, packages, testimonials, and contact forms. Modern e-commerce with reliable performance."
             image="/assets/metrofolk-screenshot.png"
-            href="/work"
+            href="/work/metrofolk"
           />
           <ProjectCard
             title="Coming Soon"
-            description="Custom web app for local Nigerian startup — more details soon."
-            image="/assets/eddea-logo.png"
+            description="Custom mobile app for local Nigerian startup — more details soon."
+            image="/assets/eds.png"
             href="/work"
             disabled
           />
@@ -217,7 +217,7 @@ export default function HomeContent() {
       <TestimonialsContent />
      
       {/* Trust signals */}
-      <section className="text-center py-12 sm:py-16 bg-gradient-to-b from-muted/20 to-background rounded-xl sm:rounded-2xl border border-[#deb56a]/20">
+      <section className="text-center py-10 mt-10 bg-gradient-to-b from-muted/20 to-background rounded-xl sm:rounded-2xl border border-[#deb56a]/20">
         <div className="max-w-3xl mx-auto space-y-4 sm:space-y-6">
           <p className="text-xl sm:text-2xl font-semibold bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
             Projects delivered across Nigeria & beyond

@@ -23,7 +23,6 @@ const testimonials = [
     quote: "Fast turnaround, clear communication, and high-quality code. Exactly what we needed for our MVP dashboard.",
     avatar: "",
   },
-  // ← add real testimonials here when available
 ]
 
 export default function TestimonialsContent() {
@@ -35,7 +34,7 @@ export default function TestimonialsContent() {
         transition={{ duration: 0.7 }}
         className="text-center mb-12 sm:mb-10"
       >
-        <h1 className="text-4xl  font-bold mb-4 sm:mb-6 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
+        <h1 className="text-4xl py-2 font-bold mb-4 sm:mb-6 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
           Client Testimonials
         </h1>
         <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -56,7 +55,7 @@ export default function TestimonialsContent() {
               <CardHeader className="pb-3 sm:pb-4">
                 <div className="flex items-center gap-3 sm:gap-4">
                   <Avatar className="h-10 w-10 sm:h-12 sm:w-12 ring-2 ring-[#deb56a]/30">
-                    <AvatarImage src={testimonial.avatar} alt={testimonial.name} />
+                    <AvatarImage className="cover" src={testimonial.avatar} alt={testimonial.name} />
                     <AvatarFallback className="bg-[#deb56a]/10 text-[#deb56a]">
                       {testimonial.name[0]}
                     </AvatarFallback>

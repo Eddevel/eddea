@@ -1,7 +1,7 @@
 import AboutContent from "@/components/sections/AboutContent"
 
 export const metadata = {
-  title: "About Eddea | Lagos-based Full-Stack Development Studio",
+  title: "About Eddea | Lagos-based Premium Web3, Mobile & Web Development Studio",
   description: "Learn more about Eddea – a Lagos-rooted software studio focused on clean, fast, and reliable web solutions.",
 }
 

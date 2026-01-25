@@ -91,7 +91,7 @@ export default function PricingContent() {
         transition={{ duration: 0.8 }}
         className="text-center mb-16 sm:mb-20"
       >
-        <h1 className="text-4xl py-5 sm:text-5xl md:text-6xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
+        <h1 className="text-4xl py-3 sm:text-5xl md:text-6xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
           Transparent Pricing
         </h1>
         <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">

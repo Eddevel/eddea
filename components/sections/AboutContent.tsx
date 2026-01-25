@@ -46,7 +46,7 @@ export default function AboutContent() {
         transition={{ duration: 0.7 }}
         className="text-center mb-12 sm:mb-16"
       >
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
+        <h1 className="text-4xl py-3 sm:text-5xl md:text-6xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
           About Eddea
         </h1>
         <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -76,7 +76,7 @@ export default function AboutContent() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="space-y-5 sm:space-y-6 order-1 md:order-2"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
+          <h2 className="text-3xl py-2 sm:text-4xl font-bold bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
             Founded by King Edward Esedo
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground">
@@ -103,7 +103,7 @@ export default function AboutContent() {
 
       {/* Skills */}
       <section className="mb-16 sm:mb-24">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-12 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
+        <h2 className="text-3xl py-3 sm:text-4xl font-bold text-center mb-8 sm:mb-12 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
           Core Skills
         </h2>
         <div className="grid md:grid-cols-3 gap-6 sm:gap-8">
@@ -137,7 +137,7 @@ export default function AboutContent() {
 
       {/* Why choose us */}
       <section>
-        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-12 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
+        <h2 className="text-3xl py-2 sm:text-4xl font-bold text-center mb-8 sm:mb-12 bg-gradient-to-r from-[#deb56a] to-[#cc0000] bg-clip-text text-transparent">
           Why Choose Eddea?
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">

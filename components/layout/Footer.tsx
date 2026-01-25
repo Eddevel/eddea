@@ -3,7 +3,7 @@
 
 import Link from "next/link"
 import { motion } from "framer-motion"
-import { Twitter, Mail, Linkedin, Github, Phone } from "lucide-react"
+import { Twitter, Mail, Linkedin, Github, Phone, Target } from "lucide-react"
 import Image from "next/image"
 
 export default function Footer() {
@@ -35,7 +35,7 @@ export default function Footer() {
                 <Twitter className="h-6 w-6" />
               </motion.a>
               <motion.a
-                href="mailto:hello@eddea.org"
+                href="mailto:info@eddea.org"
                 whileHover={{ scale: 1.15 }}
                 transition={{ duration: 0.3 }}
                 className="text-muted-foreground hover:text-[#deb56a] transition-colors"
@@ -43,7 +43,7 @@ export default function Footer() {
                 <Mail className="h-6 w-6" />
               </motion.a>
               <motion.a
-                href="https://linkedin.com/company/eddea"
+                href="https://www.linkedin.com/in/eddea"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.15 }}
@@ -77,8 +77,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/work" className="text-muted-foreground hover:text-[#deb56a] transition-colors">
-                  Work
+                <Link href="/services" className="text-muted-foreground hover:text-[#deb56a] transition-colors">
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/pricing" className="text-muted-foreground hover:text-[#deb56a] transition-colors">
+                  Pricing
                 </Link>
               </li>
               <li>
@@ -92,8 +97,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-muted-foreground hover:text-[#deb56a] transition-colors">
-                  Services
+                <Link href="/faq" className="text-muted-foreground hover:text-[#deb56a] transition-colors">
+                  FAQ
                 </Link>
               </li>
             </ul>
@@ -113,12 +118,13 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-[#deb56a]" />
-                <a href="tel:+2341234567890" className="hover:text-[#deb56a] transition-colors">
+                <a href="tel:+2349079027077" className="hover:text-[#deb56a] transition-colors">
                   +234 907 902 7077
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <span className="text-[#deb56a]">Water cooperation road, Oniru Vi, Lagos, Nigeria</span>
+                <Target className="h-5 w-5 text-[#deb56a]"/>
+                <span >Water Corporation road, Eti-osa, Lagos, Nigeria</span>
               </li>
             </ul>
           </div>

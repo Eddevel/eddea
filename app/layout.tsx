@@ -9,8 +9,8 @@ import Preloader from "@/components/animations/Preloader"
 import { Toaster } from "@/components/ui/sonner"
 
 export const metadata: Metadata = {
-  title: "Eddea  - Modern Software Development Company",
-  description: "Lagos-based software studio building fast, secure, scalable web and mobile solutions.",
+  title: "Eddea  - Premium Web3, Mobile & Web Development Studio",
+  description: "Lagos-based full-stack studio building secure, modern web/mobile/Web3 applications with cybersecurity expertise. Zero compromises.",
   keywords: "web development, full-stack, Next.js, Lagos, Nigeria, Lekki, React.js, Mobile Development",
   openGraph: {
     title: "Eddea",
@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     url: "https://eddea.org",
     siteName: "Eddea",
     type: "website",
+    images: "/assets/og.png",
   },
 }
 
