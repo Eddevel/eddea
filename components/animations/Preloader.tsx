@@ -33,7 +33,7 @@ export default function Preloader() {
   return (
     <div className="preloader fixed inset-0 z-50 flex items-center justify-center bg-background">
       <div className="preloader-text opacity-0 translate-y-10 text-4xl font-bold text-primary">
-                    <Image src="/assets/4.svg" loading="eager" alt="" width={100} height={50} className="" />
+                    <Image src="/assets/4.svg" loading="eager" alt="" width={200} height={50} className="" />
         
       </div>
     </div>

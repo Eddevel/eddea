@@ -14,11 +14,11 @@ export const metadata: Metadata = {
   keywords: "web development, full-stack, Next.js, Lagos, Nigeria, Lekki, React.js, Mobile Development",
   openGraph: {
     title: "Eddea",
-    description: "One studio. Zero compromises.",
+    description: "Software Development Studio Tenet in Evolution",
     url: "https://eddea.org",
     siteName: "Eddea",
     type: "website",
-    images: "/assets/og.png",
+    images: "/assets/eddea-logo.png",
   },
 }
 

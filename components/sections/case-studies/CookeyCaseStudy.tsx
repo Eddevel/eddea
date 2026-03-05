@@ -19,7 +19,7 @@ export default function CookeyCaseStudy() {
           Cookeyfranklinsgroup.com
         </h1>
         <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
-          A professional website for a group of companies solving urgent business challenges in Nigeria.
+          A professional website for a group of companies focusing on the issues that demand urgent solution to teaming business challenges
         </p>
       </motion.div>
 
