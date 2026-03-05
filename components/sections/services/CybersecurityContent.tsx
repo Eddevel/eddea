@@ -2,8 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+import { Card, CardHeader, CardTitle } from "@/components/ui/card"
 import { ShieldCheck, Lock, Eye, FileText, Server, AlertTriangle } from "lucide-react"
 import Link from "next/link"
 

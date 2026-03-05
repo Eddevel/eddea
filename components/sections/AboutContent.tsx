@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import Image from "next/image"
 import { motion } from "framer-motion"
-import { Code, Layout, Server, ShieldCheck, Users, Zap } from "lucide-react"
+import { Code, ShieldCheck, Users, Zap } from "lucide-react"
 
 const skills = {
   frontend: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Responsive Design"],

@@ -47,7 +47,7 @@ export default function ContactContent() {
             size="lg"
             className="text-base sm:text-lg px-8 sm:px-10 bg-gradient-to-r from-[#deb56a] to-[#cc0000] hover:from-[#cc0000] hover:to-[#deb56a] text-white shadow-lg hover:shadow-xl transition-all duration-300"
           >
-            <Link href="mailto:hello@eddea.org">Email Us</Link>
+            <Link href="mailto:info@eddea.org">Email Us</Link>
           </Button>
         </div>
       </div>
